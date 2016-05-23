@@ -8,11 +8,11 @@ namespace ArraysTask1
 {
     class Program
     {
-        static Array myArray = new Array(3);
+        //static Array myArray = new Array(3);
 
         public static void Main(string[] args)
         {
-            //Array myArray = new Array(3);
+            Array myArray = new Array(3);
 
             myArray.PrintMaxValue();
             myArray.PrintMinValue();

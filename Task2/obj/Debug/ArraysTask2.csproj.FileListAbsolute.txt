@@ -4,3 +4,9 @@ c:\users\nos\documents\visual studio 2015\Projects\Arrays\Task2\bin\Debug\Task2.
 c:\users\nos\documents\visual studio 2015\Projects\Arrays\Task2\obj\Debug\ArraysTask2.csprojResolveAssemblyReference.cache
 c:\users\nos\documents\visual studio 2015\Projects\Arrays\Task2\obj\Debug\Task2.exe
 c:\users\nos\documents\visual studio 2015\Projects\Arrays\Task2\obj\Debug\Task2.pdb
+D:\Education\Essentials\Essentials\Task2\bin\Debug\Task2.exe.config
+D:\Education\Essentials\Essentials\Task2\obj\Debug\Task2.exe
+D:\Education\Essentials\Essentials\Task2\obj\Debug\Task2.pdb
+D:\Education\Essentials\Essentials\Task2\bin\Debug\Task2.exe
+D:\Education\Essentials\Essentials\Task2\bin\Debug\Task2.pdb
+D:\Education\Essentials\Essentials\Task2\obj\Debug\ArraysTask2.csprojResolveAssemblyReference.cache

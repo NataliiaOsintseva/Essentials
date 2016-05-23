@@ -10,12 +10,12 @@ namespace ArraysTask2
     {
         int[][] matrix;
 
-        public MyMatrix()
+        public int[][] CreateMatrix()
         {
             Random random = new Random();
 
-            int col = random.Next(1, 5);
-            int row = random.Next(1, 5);
+            int col = random.Next(2, 8);
+            int row = random.Next(2, 8);
 
             Console.WriteLine("Creating {0}x{1} Matrix...", col, row);
 
@@ -32,27 +32,25 @@ namespace ArraysTask2
 
 
             }
+
+            return matrix;
         }
 
-        public void PrintMatrix()
+        public void PrintMatrix(int[][]matrix)
         {
-            int col = matrix.Length;
-            int row = matrix[0].Length;
-            var isNext = 0;
+            int row = matrix.Length;
+            int col = matrix[0].Length;
 
-            for (int i = 0; i < col; i++)
+            for (int i = 0; i < row; i++)
             {
                 
-                for (int j = 0; j < row; j++)
+                for (int j = 0; j < col; j++)
                 {
-                    if (isNext != i)
-                    {
-                        Console.WriteLine();
-                        isNext = i;
-                    }
 
                     Console.Write("{0} ", matrix[i][j]);
                 }
+
+                Console.WriteLine();
 
             }
 
@@ -60,32 +58,53 @@ namespace ArraysTask2
 
         }
 
-        public void ChangeSize(int x, int y)
+
+        public int[][] ChangeSize(int x, int y)
         {
             if( x <= 0 || y <= 0)
             {
                 Console.WriteLine("Trying to use invalid row or column index. ");
-                return;
+                return null;
             }
 
-            Random random = new Random();
+            int[][] newMatrix = new int[x][];
 
-            Console.WriteLine("Creating {0}x{1} Matrix...", x, y);
-
-            matrix = new int[x][];
+            
+            Console.WriteLine("Creating new {0}x{1} Matrix from the existing one...", x, y);
 
             for (int i = 0; i < x; i++)
             {
-                matrix[i] = new int[y];
+                newMatrix[i] = new int[y];
 
-                for (int j = 0; j < y; j++)
+                if( i < matrix.Length) {
+
+                    for (int j = 0; j < y; j++)
+                    {
+
+                        switch (j < matrix[0].Length)
+                        {
+                            case true:
+                                newMatrix[i][j] = matrix[i][j];
+                                break;
+                            default:
+                                newMatrix[i][j] = 0;
+                                break;
+                        }
+                    }
+
+                }
+
+                else
                 {
-                    matrix[i][j] = random.Next(0, 15);
+                    for (int j = 0; j < y; j++)
+                    {
+                        newMatrix[i][j] = 0;                        
+                    }
                 }
 
             }
 
-            PrintMatrix();          
+            return newMatrix;
 
         }
 

@@ -4,3 +4,9 @@ c:\users\nos\documents\visual studio 2015\Projects\Arrays\ArraysTask1\bin\Debug\
 c:\users\nos\documents\visual studio 2015\Projects\Arrays\ArraysTask1\bin\Debug\ArraysTask1.pdb
 c:\users\nos\documents\visual studio 2015\Projects\Arrays\ArraysTask1\obj\Debug\ArraysTask1.exe
 c:\users\nos\documents\visual studio 2015\Projects\Arrays\ArraysTask1\obj\Debug\ArraysTask1.pdb
+D:\Education\Essentials\Essentials\ArraysTask1\bin\Debug\ArraysTask1.exe.config
+D:\Education\Essentials\Essentials\ArraysTask1\obj\Debug\ArraysTask1.exe
+D:\Education\Essentials\Essentials\ArraysTask1\obj\Debug\ArraysTask1.pdb
+D:\Education\Essentials\Essentials\ArraysTask1\bin\Debug\ArraysTask1.exe
+D:\Education\Essentials\Essentials\ArraysTask1\bin\Debug\ArraysTask1.pdb
+D:\Education\Essentials\Essentials\ArraysTask1\obj\Debug\ArraysTask1.csprojResolveAssemblyReference.cache
